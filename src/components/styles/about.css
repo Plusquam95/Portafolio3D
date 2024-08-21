@@ -1,0 +1,22 @@
+.about-service-card {
+  display: flex;
+  margin: 5rem auto;
+  width: 90%;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.tilt-services {
+  width: 16rem;
+}
+
+@media (max-width: 576px) {
+  .about-service-card {
+    flex-direction: column;
+  }
+
+  .tilt-services {
+    width: 90%;
+    margin: auto;
+  }
+}
